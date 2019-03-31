@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{title}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" href="/images/favicon.png"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
+
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/css/jquery.timepicker.css">
+
+
+
+    <link rel="stylesheet" href="/css/icomoon.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-spy="scroll" data-target="#site-navbar" data-offset="200">
+
+<nav class="navbar navbar-expand-lg navbar-dark site_navbar bg-dark site-navbar-light" id="site-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="/">EatWell</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-layer-group fa-lg"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="site-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a href="#section-home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#section-about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#section-offer" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#section-gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#section-contact" class="nav-link">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- END nav -->
+    {+body /}
+
+<footer class="site-footer site-bg-dark site-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4 site-animate">
+                        <h2 class="site-heading-2">About Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, similique, delectus blanditiis odit expedita amet. Sed labore ipsum vel dolore, quis, culpa et magni autem sequi facere eos tenetur, ex?</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 site-animate">
+                        <div class="site-footer-widget mb-4">
+                            <h2 class="site-heading-2">The Restaurant</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="py-2 d-block">About Us</a></li>
+                                <li><a href="#" class="py-2 d-block">Chefs</a></li>
+                                <li><a href="#" class="py-2 d-block">Events</a></li>
+                                <li><a href="#" class="py-2 d-block">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 site-animate">
+                        <div class="site-footer-widget mb-4">
+                            <h2 class="site-heading-2">Useful links</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="py-2 d-block">Foods</a></li>
+                                <li><a href="#" class="py-2 d-block">Drinks</a></li>
+                                <li><a href="#" class="py-2 d-block">Breakfast</a></li>
+                                <li><a href="#" class="py-2 d-block">Brunch</a></li>
+                                <li><a href="#" class="py-2 d-block">Dinner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row site-animate">
+            <div class="col-md-12 text-center">
+                <div class="site-footer-widget mb-4">
+                    <ul class="site-footer-social list-unstyled ">
+                        <li class="site-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li class="site-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li class="site-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 text-center">
+                <p>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Reservation Modal -->
+<div class="modal fade" id="reservationModal" tabindex="-1" role="dialog" aria-labelledby="reservationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bg-image" style="background-image: url(images/reservation_1.jpg);"></div>
+                    </div>
+                    <div class="col-lg-12 p-5">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <small>CLOSE </small><span aria-hidden="true">&times;</span>
+                        </button>
+                        <h1 class="mb-4">Reserve A Table</h1>
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label for="m_fname">First Name</label>
+                                    <input type="text" class="form-control" id="m_fname">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="m_lname">Last Name</label>
+                                    <input type="text" class="form-control" id="m_lname">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <label for="m_email">Email</label>
+                                    <input type="email" class="form-control" id="m_email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label for="m_people">How Many People</label>
+                                    <select name="" id="m_people" class="form-control">
+                                        <option value="1">1 People</option>
+                                        <option value="2">2 People</option>
+                                        <option value="3">3 People</option>
+                                        <option value="4+">4+ People</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="m_phone">Phone</label>
+                                    <input type="text" class="form-control" id="m_phone">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label for="m_date">Date</label>
+                                    <input type="text" class="form-control" id="m_date">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="m_time">Time</label>
+                                    <input type="text" class="form-control" id="m_time">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <label for="m_message">Message</label>
+                                    <textarea class="form-control" id="m_message" cols="30" rows="7"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="submit" class="btn btn-primary btn-lg btn-block" value="Reserve Now">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Modal -->
+
+<!-- ADD Recipe Modal -->
+<div class="modal fade" id="addRecipe" tabindex="-1" role="dialog" aria-labelledby="addRecipeLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New Recipe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form role="form" action="/add" method="post">
+                    <div class="form-group">
+                        <label for="name" class="col-form-label">Recipe Name:</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="ingredients" class="col-form-label">Ingredients:</label>
+                        <textarea class="form-control" id="ingredients" rows="7" name="ingredients"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="price" class="col-form-label">Price:</label>
+                        <input type="number" class="form-control" id="price" name="price" min="5" max="100" step="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label for="directions" class="col-form-label">Directions:</label>
+                        <textarea class="form-control" id="directions" rows="7" name="directions"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" value="Let's Cook!" class="btn btn-primary rounded">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Modal -->
+
+{#recipes}
+
+<!-- EDIT Recipe Modal -->
+<div class="modal fade" id="editRecipe" tabindex="-1" role="dialog" aria-labelledby="editRecipeLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New Recipe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form role="form" action="/edit" method="post">
+                    <input type="hidden" name="id" id="edit-form-id">
+                    <div class="form-group">
+                        <label for="edit-form-name" class="col-form-label">Recipe Name:</label>
+                        <input type="text" class="form-control" id="edit-form-name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-form-ingredients" class="col-form-label">Ingredients:</label>
+                        <textarea class="form-control" id="edit-form-ingredients" rows="7" name="ingredients"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-form-price" class="col-form-label">Price:</label>
+                        <input type="number" class="form-control" id="edit-form-price" name="price" min="5" max="100" step="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-form-directions" class="col-form-label">Directions:</label>
+                        <textarea class="form-control" id="edit-form-directions" rows="7" name="directions"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" value="Save Changes" class="btn btn-primary rounded">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Modal -->
+
+
+<!-- VIEW Recipe Modal -->
+<div class="modal fade" id="{id}" tabindex="-1" role="dialog" aria-labelledby="{id}Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">{name}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+	            <h4>Ingredients: </h4>
+	            <p>{ingredients}</p>
+              <h4>Directions: </h4>
+              <p>{directions}</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Modal -->
+{/recipes}
+
+<!-- loader -->
+<div id="site-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+<script src="/js/jquery.waypoints.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+
+<script src="/js/bootstrap-datepicker.js"></script>
+<script src="/js/jquery.timepicker.min.js"></script>
+
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+</body>
+</html>
